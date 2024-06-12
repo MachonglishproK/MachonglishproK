@@ -1,7 +1,8 @@
 # Productmanager iOS Developer in Japan👋
 ### Feel free to contact me anytime!👍
 #
-![Foo_name's GitHub stats](https://github-readme-stats.vercel.app/api?username=MachonglishproK&show_icons=true&theme=vue-dark)
+![Foo_name's GitHub stats](https://github-readme-stats.vercel.app/api?username=MachonglishproK&show_icons=true&theme=vue-dark&count_private=true)
+
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MachonglishproK&layout=compact&theme=vue-dark)](https://github.com/anuraghazra/github-readme-stats)
 
