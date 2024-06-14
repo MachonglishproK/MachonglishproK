@@ -2,15 +2,15 @@
 
 ### Feel free to contact me anytime! 👍
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=MachonglishproK&show_icons=true&theme=vue-dark&count_private=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MachonglishproK&layout=compact&theme=vue-dark" />
-</p>
+
+[![](https://raw.githubusercontent.com/MachonglishproK/MachonglishproK/main/profile-summary-card-output/algolia/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![](https://raw.githubusercontent.com/MachonglishproK/MachonglishproK/main/profile-summary-card-output/algolia/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/MachonglishproK/MachonglishproK/main/profile-summary-card-output/algolia/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![](https://raw.githubusercontent.com/MachonglishproK/MachonglishproK/main/profile-summary-card-output/algolia/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/MachonglishproK/MachonglishproK/main/profile-summary-card-output/algolia/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
 
 <p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=MachonglishproK&theme=discord&no-frame=true&column=4" />
+    <img src="https://github-profile-trophy.vercel.app/?username=MachonglishproK&theme=discord&no-frame=true" />
   </a>
 </p>
 
