@@ -21,6 +21,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-      - uses: gautamkrishnar/keepalive-workflow@v2
-        with:
-          time_elapsed: "50"
+      - name: Keepalive (prevent scheduled workflow auto-disable)
+        run: |
+          git fetch origin master --quiet
+          LAST_COMMIT_TS=$(git log -1 --format=%ct origin/master)
+          DAYS_SINCE=$(( ( $(date +%s) - LAST_COMMIT_TS ) / 86400 ))
+          echo "Last commit on origin/master was $DAYS_SINCE days ago"
+          if [ "$DAYS_SINCE" -ge 50 ]; then
+            git config user.name "keepalive-bot"
+            git config user.email "keepalive-bot@users.noreply.github.com"
+            git checkout master
+            git pull --rebase origin master
+            git commit --allow-empty -m "chore: keepalive"
+            git push origin master
+          fi
