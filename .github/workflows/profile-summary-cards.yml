@@ -16,6 +16,8 @@ jobs:
       
     steps:
       - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PROFILE_PAT }}
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.PROFILE_PAT }}
